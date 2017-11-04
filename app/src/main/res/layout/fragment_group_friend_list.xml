@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.heychat.Fragments.GroupFriendListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab"
+            android:src="@drawable/if_plus"
+            app:borderWidth="2dp"
+            app:fabSize="normal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+           >
+
+        </android.support.design.widget.FloatingActionButton>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/groupMembers"
+      android:layout_marginTop="10dp"
+      android:text="GROUP MEMBERS"
+      android:textSize="20sp"
+      android:textColor="@color/colorTeal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addGroupMemeber"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/groupMembers"
+            android:backgroundTint="@color/colorTeal"
+            android:text="add friend"
+            android:visibility="invisible"
+            android:textColor="@color/colorWhite"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupMembers"
+        android:id="@+id/groupMemberlist"
+        android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+</FrameLayout>
+

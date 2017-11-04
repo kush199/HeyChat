@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.heychat.LoginActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/main_page_toolbar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginText"
+        android:text="@string/login_to_your_account"
+        android:layout_below="@+id/main_page_toolbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LoginEmailWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginText"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginEmail"
+        android:hint="@string/enter_the_email"
+        android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LoginPasswordWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginEmailWrapper"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginPassword"
+        android:hint="@string/enter_the_password"
+        android:maxLength="6"
+        android:inputType="numberPassword"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ForgetPassword"
+        android:textSize="20sp"
+        android:text="Forget Password?"
+        android:textColor="@color/colorTeal"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/LoginPasswordWrapper"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginButton"
+        android:layout_below="@id/LoginPasswordWrapper"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/login"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_AccountSetting"
+        android:title="ACCOUNT SETTING"
+        android:icon="@drawable/ic_build_black_24dp"
+        />
+    <item
+        android:id="@+id/nav_NewsFeed"
+        android:title="NEWS FEED"
+        android:icon="@drawable/ic_live_tv_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_AboutUs"
+        android:title="ABOUT US"
+        android:icon="@drawable/ic_group_black_24dp"/>
+    <item
+        android:id="@+id/nav_FAQs"
+        android:title="FAQs"
+        android:icon="@drawable/ic_youtube_searched_for_black_24dp"/>
+    <item
+        android:id="@+id/nav_sign_out_menu"
+        android:title="SIGN OUT"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        />
+
+
+</menu>

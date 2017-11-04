@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.heychat.Fragments.ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="6"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Search for User"
+            android:textColorHint="@color/colorPrimaryDark"
+            />
+
+  <ListView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/searchName"
+       android:id="@+id/List_Friends"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="20dp"
+       />
+   <!-- <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/List_Friends"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>-->
+
+    </RelativeLayout>
+</FrameLayout>

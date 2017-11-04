@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HeyChat</string>
+    <string name="welcome_to_hey_chat">Welcome to Hey Chat!</string>
+    <string name="already_a_member_login">Already a Member ! Login</string>
+    <string name="not_a_member_register">not a member ! register</string>
+    <string name="register_here">Register Here</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="enter_a_valid_email">Enter a valid Email</string>
+    <string name="enter_your_username1">Enter your Username</string>
+    <string name="enter_numeric_password">Enter Numeric Password(6 digit)</string>
+    <string name="login_now">Login Now!</string>
+    <string name="enter_the_password">Enter the Password</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_last_name">Enter your Last Name</string>
+    <string name="enter_the_email">Enter the Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="register_yourself">Register Yourself</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="GroupName">Enter the Group Name</string>
+    <string name="done">Done</string>
+    <string name="create_group">Create Group</string>
+    <string name="add_member">ADD MEMBER</string>
+    <string name="add_user">Add user</string>
+    <string name="cancel">cancel</string>
+    <string name="back">Back</string>
+    <string name="update">UPDATE</string>
+    <string name="upload">UPLOAD</string>
+</resources>
